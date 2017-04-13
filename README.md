@@ -1,6 +1,9 @@
 identificador
 ==============================
 
+Identificador para arquivos ou informações com precisão de minutos. Esse identificador terá sempre oito caracteres.
+
+Feito em coffeeScript (http://coffeescript.org)
 
 # Testando
 
