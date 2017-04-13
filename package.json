@@ -1,0 +1,27 @@
+{
+  "name": "identificador",
+  "version": "1.0.0",
+  "description": "identificador unico para arquivos ateh o minutos. Esse identificador terah sempre oito caracteres.",
+  "main": "src/identificador.coffee",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/coelhotopetudo/identificador.git"
+  },
+  "keywords": [
+    "identificador"
+  ],
+  "author": "Alisson Coelho de Morais",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://gitlab.com/coelhotopetudo/identificador/issues"
+  },
+  "homepage": "https://gitlab.com/coelhotopetudo/identificador#README",
+  "dependencies": {
+    "mocha": "~2.4.5",
+    "chai": "~3.5.0",
+    "coffee-script": "~1.10.0"
+  }
+}
