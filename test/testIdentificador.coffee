@@ -15,6 +15,11 @@ describe 'identificador', ->
       res = bc.converter(data)
       it 'ateh 2099 deve iniciar com y', ->
         exp(res).equal('Y16CTN44')
+    data = '30/11/2017 00:00'
+    describe 'data ' + data, ->
+      res = bc.converter(data)
+      it 'meia noite (zero horas)', ->
+        exp(res).equal('Y17L5A00')
     data = '30/11/2017 00:21'
     describe 'data ' + data, ->
       res = bc.converter(data)
