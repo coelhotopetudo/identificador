@@ -3,8 +3,8 @@ bc = module.exports = () ->
 bc.calcular = (num) ->
   if num == null  || num > 31 || isNaN(num)
     return null
-  todos = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
-  return todos.substring(num-1, num)
+  todos = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ123456'
+  return todos[parseInt(num)]
 
 bc.converter = (dhm) ->
   dd = dhm.substring(0,2)
